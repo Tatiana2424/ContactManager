@@ -3,22 +3,10 @@ using ContactManager.BLL.MediatR.ContactData.Delete;
 using ContactManager.BLL.MediatR.ContactData.GetAll;
 using ContactManager.BLL.MediatR.ContactData.GetById;
 using ContactManager.BLL.MediatR.ContactData.Update;
-using ContactManager.DAL.Entities;
 using ContactManager.DAL.Persistence;
 using ContactManager.WebApi.Controllers.BaseController;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Formats.Asn1;
-using System.Globalization;
-using CsvHelper;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using CsvHelper.Configuration;
 
 namespace ContactManager.WebApi.Controllers;
 
